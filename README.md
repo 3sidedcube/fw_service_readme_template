@@ -9,7 +9,7 @@ It deploys a dockerized application on AWS fargate and expose endpoints under th
 
 for production, staging and dev environments correspondingly.
 
-> All items marked "`// TODO`" should be amended to match the new project prior to pushing to a deployment branch (dev, staging, production). Amend these in `main.tf`, `variables.tf` and the `terraform-{env}.tfvars` file for each environment.
+> All items marked `// TODO` or `# TODO` should be amended to match the new project prior to pushing to a deployment branch (dev, staging, production).
 
 The application itself is written in [Nodejs](https://nodejs.org/). Application code must be located in the `app/src` folder. The Dockerfile should always be place at the root of the repository.
 
